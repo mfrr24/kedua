@@ -62,8 +62,8 @@
             label = "NUMB";
             bindings = <
 &kp PRINTSCREEN  &kp F2  &kp LS(F3)  &kp F4        &none    &none      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &none
-&kp TAB          &kp N4  &kp N5      &kp N6        &none    &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&kp LEFT_GUI     &kp N7  &kp N8      &kp N9        &none    &none      &kp HOME        &none           &kp END          &none
+&kp TAB          &none   &none       &none         &none    &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&kp LEFT_GUI     &none   &none       &none         &none    &none      &kp HOME        &none           &kp END          &none
                                      &kp LEFT_ALT  &to 0    &kp SPACE  &none
             >;
         };
@@ -71,9 +71,9 @@
         othe_layer {
             label = "OTHE";
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)    &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)    &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &none
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &kp LC(N)  &kp LC(M)  &none      &none      &bt BT_NXT
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)    &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)   &kp LC(P)
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)    &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)   &none
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &kp LC(N)  &kp LC(M)  &none      &bt BT_PRV  &bt BT_NXT
                                  &kp LSHFT  &to 0        &none      &none
             >;
         };
