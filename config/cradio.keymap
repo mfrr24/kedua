@@ -72,7 +72,7 @@
             label = "OTHE";
             bindings = <
 &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)    &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)   &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)    &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)   &none
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)    &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)   &bt BT_CLR_ALL
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &kp LC(N)  &kp LC(M)  &none      &bt BT_PRV  &bt BT_NXT
                                  &kp LSHFT  &to 0        &none      &none
             >;
