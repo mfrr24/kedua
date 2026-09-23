@@ -53,7 +53,7 @@
             bindings = <
 &kp ESC           &kp EXCLAMATION  &kp AMPERSAND  &kp PIPE   &kp DOUBLE_QUOTES    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET         &kp ASTERISK  &kp BSPC
 &kp TAB           &kp AT_SIGN      &kp DOLLAR     &kp SQT    &kp EQUAL            &kp SLASH             &kp LESS_THAN          &kp GREATER_THAN  &none         &kp ENTER
-&kp LEFT_CONTROL  &caps_word       &none          &none      &kp MINUS            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COMMA         &kp PERIOD    &kp DEL
+&kp LEFT_CONTROL  &kp RG(B)        &none          &none      &kp MINUS            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COMMA         &kp PERIOD    &kp DEL
                                                   &kp LSHFT  &to 0                &to 1                 &none
             >;
         };
